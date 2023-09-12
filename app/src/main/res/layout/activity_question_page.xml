@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightorange"
+    tools:context=".Question_Page">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="60"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct Answer: "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewcorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong Answer: "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="349dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textViewQues"
+            android:layout_width="300dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Loading...."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewOption1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Loading...."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewOption2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Loading...."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewOption3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Loading...."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewOption4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Loading...."
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/buttonfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/red"
+            android:text=" Finish Game"
+            app:backgroundTint="@color/red" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/red"
+            android:text="Next Question"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/red" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

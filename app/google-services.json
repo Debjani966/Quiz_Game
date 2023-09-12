@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "210957321796",
+    "firebase_url": "https://quizgame-8a46c-default-rtdb.firebaseio.com",
+    "project_id": "quizgame-8a46c",
+    "storage_bucket": "quizgame-8a46c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210957321796:android:e00ee4072493e328e41e11",
+        "android_client_info": {
+          "package_name": "com.debjanimandal.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210957321796-0p0okfap2bq9sb2srdned2ifcr8mav3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debjanimandal.quizgame",
+            "certificate_hash": "ecb4088ba9f31bf757753b21713091e6568cce32"
+          }
+        },
+        {
+          "client_id": "210957321796-nlngpnf6q1fpborcma1dqfm1rjfrnl42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAFsWTIlyL7IRQcEv_3z5EqjNxlzq9HIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210957321796-ie3v4pdqvoabtc4miflciseff0fsdmnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
